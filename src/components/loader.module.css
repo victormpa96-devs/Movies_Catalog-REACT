@@ -1,0 +1,16 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2em;
+}
+
+.spinning{
+    animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+    to{
+        transform: rotate(360deg);
+    }
+}

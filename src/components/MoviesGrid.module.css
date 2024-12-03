@@ -1,0 +1,42 @@
+.moviesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.divBtn{
+    display: flex;
+    justify-content: center;
+}
+
+a{    
+    width: fit-content;
+}
+
+.buttonSort{
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 2px solid red;
+    background-color: darkred;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 2em;
+}
+
+@media (max-width: 560px) {
+    
+    .moviesGrid{
+        grid-template-columns: 100%;
+    }
+
+    .buttonSort{
+        width: 90%;
+        height: 50px;
+    }
+
+}

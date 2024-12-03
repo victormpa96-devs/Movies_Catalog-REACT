@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.title{    
+    text-align: center;
+    text-shadow:
+    0 0 7px rgb(110, 0, 0),
+    0 0 10px red,
+    0 0 21px red
+}

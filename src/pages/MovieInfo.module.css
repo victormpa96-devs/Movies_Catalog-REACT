@@ -1,0 +1,19 @@
+.MovieInfo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    max-width: 400px;
+    margin: 15px;
+}
+
+.MovieImage{
+    border-radius: 10px;
+}
+
+.MovieInfoBox{
+    font-size: 1.5rem;
+    text-align: justify;
+}
